@@ -18,3 +18,9 @@ Developers:
 -----------
 For developers and others needing additional information please see the
 [wiki](https://github.com/linuxwacom/input-wacom/wiki).
+
+Install :
+---------
+Clone this repo or download in tags/release, unzip && run this to install :
+
+        if test -x ./autogen.sh; then ./autogen.sh; else ./configure; fi && make && sudo make install || echo "Build Failed"
